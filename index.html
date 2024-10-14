@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="title">Trello Clone App</h1>
+    </header>
+
+    <div class="main">
+        <div class="box">
+            <div class="box-heading">todo</div>
+            <div class="black"></div>
+            <input type="text" draggable="false" placeholder="Enter your task" class="input">
+            <ul id="output"></ul>
+            <button class="todo-btn" onclick="addInp()">Add New</button>
+        </div>
+        <div class="box">
+            <div class="box-heading">in progress</div>
+            <div class="black">
+
+            </div>
+            <input type="text" class="input" draggable="true">
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
