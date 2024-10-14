@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Trello Clone App</title>
 </head>
 
 <body>
@@ -17,23 +17,20 @@
 
     <div class="main">
         <div class="box">
-            <div class="box-heading">todo</div>
-            <div class="black"></div>
-            <input type="text" draggable="false" placeholder="Enter your task" class="input">
+            <div class="box-heading">To Do</div>
+            <hr>
+            <div style="display: flex;">
+                <input type="text" draggable="false" placeholder="Enter your task" id="todo-input" class="input">
+                <button class="todo-btn">Add New</button>
+            </div>
             <ul id="output"></ul>
-            <button class="todo-btn" onclick="addInp()">Add New</button>
         </div>
         <div class="box">
-            <div class="box-heading">in progress</div>
-            <div class="black">
+            <div class="box-heading">In Progress</div>
+            <hr>
 
-            </div>
-            <input type="text" class="input" draggable="true">
         </div>
     </div>
-
-
-
 
     <script src="app.js"></script>
 </body>

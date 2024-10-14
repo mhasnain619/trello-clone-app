@@ -54,14 +54,12 @@
     cursor: pointer;
 }
 
-.black {
-    border-bottom: 1px solid black;
-}
+
 
 .input {
-    padding: 8px;
+    padding: 15px;
     margin: 10px;
     border: none;
-    width: 90%;
+    width: 92%;
     border-radius: 10px;
 }
